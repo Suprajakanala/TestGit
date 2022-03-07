@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 public class StudentServiceStub {
+	/*
+	 * Created hashmap variable to store the data
+	 */
 	private static Map<Long, Student> students = new HashMap<>();
 	private static Long index = 2L;
 	
